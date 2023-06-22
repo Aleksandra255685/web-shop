@@ -1,0 +1,37 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}{{ title }}{% endblock %}
+{% block css%}{% static 'main/css/payment.css' %}{% endblock %}
+
+{% block content %}
+	<div class="shipping_payment">
+		<h5>{{ title }}</h5>
+			<div class="shipping_payment_container">
+				<div class="shipping_payment_container_1">
+					<h1>Режим работы</h1>
+					<p>Мы доставляем кондитерские изделия по Красноярску</p>
+					<p>Каждый день</p>
+					<p>8:00 - 21:00</p>
+				</div>
+				<div class="shipping_payment_container_1">
+					<h1>Оплата</h1>
+					<p>Мы принимаем Visa, Mastercard, Сбербанк Онлайн</p>
+					<p class="ship__p__grey">В случае возникновения проблем - оплата через курьера</p>
+				</div>
+
+				<div class="shipping_payment_container_1">
+						<h1>Самовывоз</h1>
+						<p>г. Красноярск, ул. Дубровинского 55</p>
+						<ul class="map">
+							<li><a href="https://goo.gl/maps/1tqfsmfVFbc5PH858">Адрес на карте</a>									</li>
+						</ul>
+				</div>
+				<div class="shipping_payment_container_1">
+						<h1>Возврат</h1>
+						<p>Возврат товара в соответсвии с действующим законодательством</p>
+				</div>
+
+			</div>
+		</div>
+{% endblock %}

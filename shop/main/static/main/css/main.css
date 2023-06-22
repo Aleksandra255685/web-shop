@@ -1,0 +1,209 @@
+body {
+	padding: 0;
+	margin: 0;
+  	font-family: 'Coda', cursive;
+  	color: 000;
+  	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container: {
+	margin: 0 auto;
+}
+
+header a {
+	color: #060606;
+}
+
+.logo {
+	margin-right: 295px;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li a{
+	text-decoration: none;
+	font-size: 24px;
+	letter-spacing: 0.05em;
+}
+
+.shop_cart {
+	border: 1px solid rgba(6, 6, 6, 0.4);
+	border-radius: 300px;
+	padding-left: 21px;
+	padding-right: 20px;
+	align-items: center;
+	display: flex;
+}
+
+.menu li {
+	margin-right: 50px;
+}
+
+.img__line {
+	padding-bottom: 87px;
+	width: 1518px;
+}
+
+.nav {
+	margin-left: 89px;
+	display: flex;
+	align-items: center;
+	width: 1400px;
+	height: 100px;
+}
+
+
+.offer {
+	margin-left: 150px;
+	width: 1235px;
+	height: 594px;
+	background-size: 100%;
+	align-items: center;
+	background: url(../img/Vector11.png);
+}
+.offer h1{
+	font-size: 40px;
+	font-weight: 400;
+	padding-top: 67px;
+	margin-right: 399px;
+	margin-left: 450px;
+	font-style: normal;
+}
+
+.offer p{
+	padding-right: 278px;
+	padding-left: 232px;
+	font-size: 32px;
+	text-align: center;
+	letter-spacing: 0.05em;
+}
+
+.offer li {
+	padding-right: 577px;
+	padding-left: 561px;
+}
+
+.offer li a {
+	text-decoration: none;
+	color: #060606;
+	font-size: 32px;
+	letter-spacing: 0.05em;
+}
+
+.container_about {
+	width: 1518px;
+	height: 1433px;
+	background: url(../img/about_new.png);
+}
+
+.about {
+	width: 1518px;
+}
+
+.about h2{
+	padding-bottom: 68px;
+	align-items: center;
+	padding-left: 150px;
+	font-size: 60px;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+}
+
+.about p{
+	align-items: center;
+	text-align: right;
+	/*line-height: 45px;*/
+	padding-right: 47px;
+	padding-left: 735px;
+	font-size: 32px;
+	letter-spacing: 0.05em;
+
+}
+
+.cook h3{
+	padding-top: 120px;
+	font-weight: 400;
+	align-items: center;
+	padding-left: 150px;
+	font-size: 60px;
+	letter-spacing: 0.05em;
+
+}
+
+.cook p{
+	padding-top: 85px;
+	line-height: 45px;
+	align-items: center;
+	text-align: left;
+	padding-right: 675px;
+	padding-left: 73px;
+	font-size: 32px;
+	letter-spacing: 0.05em;
+}
+
+.container_about {
+	margin-bottom: 70px;
+}
+
+.img__line {
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+
+footer {
+	align-items: center;
+}
+
+footer h4 {
+	padding-right: 568px;
+	padding-left: 591px;
+	font-size: 24px;
+	letter-spacing: 0.05em;
+}
+
+.container__container {
+	padding-top: 10px;
+	padding-bottom: 1px;
+	font-size: 20px;
+	padding-left: 100px;
+}
+
+.footer_container__container {
+	padding-right: 568px;
+	padding-left: 520px;
+}
+
+.footer_container__container div {
+	align-items: center;
+	margin-right: 50px;
+	display: flex;
+	height: 50px;
+	padding-bottom: 10px;
+}
+
+.footer_tell {
+	padding-left: 10px;
+	margin-right: 100px;
+}
+
+.footer_email {
+	padding-left: 25px;
+}
+
+.footer_instagram {
+	padding-left: 40px;
+}

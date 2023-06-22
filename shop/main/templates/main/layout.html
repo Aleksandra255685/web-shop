@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{% block title %}{% endblock %}</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Coda:wght@400;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{% block css%}{% endblock %}">
+</head>
+<body>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="nav">
+				<img src="{% static 'main\img\icons.jpg' %}" alt="icon" class="logo">
+				<ul class="menu">
+					<li><a href="{% url 'main' %}">О нас</a></li>
+					<li><a href="{% url 'menu' %}">Меню</a></li>
+					<li><a href="{% url 'payment' %}">Доставка и оплата</a></li>
+					<li><a href="{% url 'contacts' %}">Контакты</a></li>
+					<li class="shop_cart">
+						<div class="basket-container">
+							<a href="{% url 'cart' %}">Корзина <span id="basket_total_nmb"></span></a>
+							<img src="{% static 'main\img\shopping-cart.png' %}" alt="cart">
+							<div class="basket-items hidden" >
+								<ul>
+									{% for product_in_basket in products_in_basket %}
+										<li> {{ product_in_basket.product.name }} {{ product_in_basket.nmb }} кг.
+										по {{ product_in_basket.price_per_item }} ₽/кг</li>
+									{% endfor %}
+								</ul>
+
+							</div>
+						</div>
+
+					</li>
+				</ul>
+			</div>
+			<img class="img__line" src="{% static 'main\img\Line1.png' %}" alt="line">
+        </div>
+	</header>
+	<main>
+		{% block content %}
+		{% endblock %}
+		<img class="img__line" src="{% static 'main\img\Line1.png' %}" alt="line">
+	</main>
+	<footer id="footer" class="footer">
+		<div class="container__container">
+			<h4>Контакты</h4>
+			<div class="footer_container__container">
+				<div class="footer_tell">
+					<img src="{% static 'main\img\icon-park-outline_phone-telephone.png' %}" alt="tell">
+					<p>8 (800) 555-35-35</p>
+				</div>
+				<div class="footer_email">
+					<img src="{% static 'main\img\codicon_mail.png' %}" alt="email">
+					<p>coockery@str.ru</p>
+				</div>
+				<div class="footer_instagram">
+					<img src="{% static 'main\img\fe_instagram.png' %}" alt="instagram">
+					<p>@cookery.str</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="{% static '/main/js/script.js' %}" type="text/javascript"></script>
+</body>
+</html>

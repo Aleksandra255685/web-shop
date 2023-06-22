@@ -1,0 +1,294 @@
+body {
+	padding: 0;
+	margin: 0;
+  	font-family: 'Coda', cursive;
+  	color: 000;
+  	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container: {
+	margin: 0 auto;
+}
+
+header a {
+	color: #060606;
+}
+
+.logo {
+	margin-right: 295px;
+}
+
+.menu {
+	display: flex;
+}
+.shop_cart {
+	border: 1px solid rgba(6, 6, 6, 0.4);
+	border-radius: 300px;
+	padding-left: 21px;
+	padding-right: 20px;
+	align-items: center;
+	display: flex;
+}
+
+.menu li a{
+	text-decoration: none;
+	font-size: 24px;
+	letter-spacing: 0.05em;
+}
+
+.menu li {
+	margin-right: 44px;
+}
+
+.img__line {
+	padding-bottom: 87px;
+	width: 1518px;
+}
+
+.nav {
+	margin-left: 89px;
+	/*padding-bottom: 87px;*/
+	display: flex;
+	align-items: center;
+	width: 1400px;
+}
+
+footer {
+	align-items: center;
+}
+
+footer h4 {
+	padding-right: 568px;
+	padding-left: 591px;
+	font-size: 24px;
+	letter-spacing: 0.05em;
+}
+
+.img__line {
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+.container__container {
+	padding-top: 10px;
+	padding-bottom: 1px;
+	font-size: 20px;
+	padding-left: 100px;
+}
+
+.footer_container__container {
+	padding-right: 568px;
+	padding-left: 520px;
+}
+
+.footer_container__container div {
+	align-items: center;
+	margin-right: 50px;
+	display: flex;
+	height: 50px;
+	padding-bottom: 10px;
+}
+
+.footer_tell {
+	padding-left: 10px;
+	margin-right: 100px;
+}
+
+.footer_email {
+	padding-left: 25px;
+}
+
+.footer_instagram {
+	padding-left: 40px;
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10px;
+
+}
+
+.btn_1 {
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+}
+
+.btn_1_1 {
+	width: 200px;
+	height: 60px;
+	left: 257px;
+	top: 265px;
+	box-sizing: border-box;
+	background: #FEF0F2;
+	border: 1px solid rgba(6, 6, 6, 0.4);
+	border-radius: 100px 0px 0px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.btn_1_1 li {
+	/*margin-right: 25px;*/
+	text-align: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+.btn_1_1 li a{
+	font-size: 24px;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	color: #060606;
+	text-align: center;
+	align-items: center;
+	font-weight: 400;
+}
+
+.btn_2 {
+	align-items: center;
+	text-align: center;
+}
+
+.btn_2_2 {
+	width: 200px;
+	height: 60px;
+	left: 257px;
+	top: 265px;
+	box-sizing: border-box;
+	background: #FEF0F2;
+	border: 1px solid rgba(6, 6, 6, 0.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.btn_2_2 li {
+	text-align: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+.btn_2_2 li a{
+	font-size: 24px;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	color: #060606;
+	text-align: center;
+	align-items: center;
+	font-weight: 400;
+}
+
+.btn_3 {
+	align-items: center;
+	text-align: center;
+}
+
+.btn_3_3 {
+	width: 200px;
+	height: 60px;
+	left: 257px;
+	top: 265px;
+	box-sizing: border-box;
+	background: #FEF0F2;
+	border: 1px solid rgba(6, 6, 6, 0.4);
+	border-radius: 0px 100px 100px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.btn_3_3 li {
+	text-align: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+.btn_3_3 li a{
+	font-size: 24px;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	color: #060606;
+	text-align: center;
+	align-items: center;
+	font-weight: 500;
+}
+
+h2 {
+    padding-top: 10px;
+	padding-left: 210px;
+	padding-bottom: 50px;
+	font-size: 50px;
+	font-weight: 400;
+}
+
+
+.row {
+    padding-left: 95px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.row div {
+    width: 244px;
+    height:380px;
+	margin-right: 80px;
+	margin-bottom: 40px;
+	mix-blend-mode: normal;
+	border: 1px solid rgba(6, 6, 6, 0.4);
+	border-radius: 35px;
+
+}
+
+.row div img {
+    width: 244px;
+}
+
+.row p {
+	text-align: center;
+	font-size: 18px;
+	margin: 5px;
+}
+
+.row а{
+    text-decoration: none;
+}
+
+
+.foot_conteiner_p {
+	padding-left: 200px;
+	font-size: 25px;
+}
+
+.p_one {
+	font-size: 30px;
+}
+
+
+
+.grey__img {
+	padding-bottom: 50px;
+	width: 1518px;
+}
+

@@ -1,0 +1,181 @@
+body {
+	padding: 0;
+	margin: 0;
+  	font-family: 'Coda', cursive;
+  	color: 000;
+  	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container: {
+	margin: 0 auto;
+}
+
+
+header a {
+	color: #060606;
+}
+
+.logo {
+	margin-right: 295px;
+}
+
+.menu {
+	display: flex;
+}
+.shop_cart {
+	border: 1px solid rgba(6, 6, 6, 0.4);
+	border-radius: 300px;
+	padding-left: 21px;
+	padding-right: 20px;
+	align-items: center;
+	display: flex;
+}
+
+.menu li a{
+	text-decoration: none;
+	font-size: 24px;
+	letter-spacing: 0.05em;
+}
+
+.menu li {
+	margin-right: 44px;
+}
+
+.img__line {
+	padding-bottom: 87px;
+	width: 1518px;
+}
+
+.nav {
+	margin-left: 89px;
+	/*padding-bottom: 87px;*/
+	display: flex;
+	align-items: center;
+	width: 1400px;
+}
+
+footer {
+	align-items: center;
+}
+
+footer h4 {
+	padding-right: 568px;
+	padding-left: 591px;
+	font-size: 24px;
+	letter-spacing: 0.05em;
+}
+
+.img__line {
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+.container__container {
+	padding-top: 10px;
+	padding-bottom: 1px;
+	font-size: 20px;
+	padding-left: 100px;
+}
+
+.footer_container__container {
+	padding-right: 568px;
+	padding-left: 520px;
+}
+
+.footer_container__container div {
+	align-items: center;
+	margin-right: 50px;
+	display: flex;
+	height: 50px;
+	padding-bottom: 10px;
+}
+
+.footer_tell {
+	padding-left: 10px;
+	margin-right: 100px;
+}
+
+.footer_email {
+	padding-left: 25px;
+}
+
+.footer_instagram {
+	padding-left: 40px;
+}
+/*shipping_payment*/
+
+.shipping_payment_container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	letter-spacing: 0.05em;
+	margin-bottom: 40px;
+
+}
+
+.ship__p__grey {
+	color: rgba(6, 6, 6, 0.4);
+	font-size: 10px;
+}
+
+.shipping_payment_container p{
+	margin-right: 7px;
+	margin-left: 7px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.shipping_payment_container h1 {
+	padding-top: 40px;
+	font-size: 25px;
+
+}
+
+.shipping_payment_container div {
+	margin-right: 10px;
+
+}
+
+.shipping_payment_container_1 {
+	border-radius: 40px;
+	height: 350px;
+	width: 220px;
+	background-color: #fef0f2;
+	text-align: center;
+	margin: 20px;
+
+}
+
+
+.shipping_payment h5 {
+	padding-left: 200px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	font-size: 40px;
+	font-weight: 400;
+}
+
+.map {
+	padding-bottom: 10px;
+}
+
+.map li a {
+	text-decoration: none;
+	color: #060606;
+	letter-spacing: 0.05em;
+	font-weight: 800;
+	cursor: pointer;
+	font-size: 20px;
+}
+

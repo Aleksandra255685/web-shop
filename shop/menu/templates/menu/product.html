@@ -1,0 +1,43 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}Menu{% endblock %}
+{% block css%}{% static 'menu/css/product.css' %}{% endblock %}
+
+{% block content %}
+    <div class="product">
+        <div class="image">
+            <img src="{{ product.image.url}}" alt="item_1">
+        </div>
+
+        <div class="info">
+            <p class="name"> {{product.name}}</p>
+            <p class="filling">Начинка: {{product.filling}}</p>
+            <p class="filling"> Состав: {{product.composition}}</p>
+            <p class="filling"> Декор может быть выбран Вами </p>
+            <p class="filling"> Стоимость: {{product.cost}} ₽/кг</p>
+
+            <div class="form">
+                <form id="form_buying" class="form" action="#">{% csrf_token %}
+                    <div class="count">
+                        <button type="button" class="count_minus"
+                                data-link="class{merge: quantity <= minQuantity toggle='disabled'}">-</button>
+                        <input type="number" data-link="{:quantity:}" autocomplete="off" maxlength="2"
+                               min="1" class="count_number" id="number">
+                        <button type="button" class="count_plus"
+                                data-link="class{merge: quantity == minQuantity toggle='disabled'}">+</button>
+                    </div>
+
+                    <button type="submit" class="cart" data-product_id="{{product.id}}"
+                            id="submit_btn" data-name="{{product.name}}" data-price="{{product.cost}}">
+
+                        <img class="img_cart" src="{% static 'main\img\shopping-cart-w.png' %}" alt="cart">
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+{% endblock %}

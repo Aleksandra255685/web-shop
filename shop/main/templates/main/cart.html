@@ -1,0 +1,11 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}{{ title }}{% endblock %}
+{% block css%}{% static 'main/css/cart.css' %}{% endblock %}
+
+{% block content %}
+	<div class="shipping_payment">
+		<h5>{{ title }}</h5>
+	</div>
+{% endblock %}
